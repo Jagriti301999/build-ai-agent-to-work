@@ -41,7 +41,7 @@ tools.extend(uc_toolkit.tools)
 
 # Initialize the retriever tool.
 VECTOR_SEARCH_TOOL = VectorSearchRetrieverTool(
-    index_name="agents.main.foodly_policy_embedding_index",
+    index_name="agents.main.foodly_index_name_test",
     tool_name="foodly_policy_document_retrieval_tool",
     num_results=2,
     tool_description="Use this tool to search the Foodly knowledge base for policies, procedures, and service-related information. It retrieves the most relevant chunks from the company’s official documentation, including refund rules, cancellation terms, delivery guidelines, loyalty program details, privacy policies, and escalation procedures"
